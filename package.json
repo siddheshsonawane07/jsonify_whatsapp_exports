@@ -1,6 +1,6 @@
 {
   "name": "whatsapp-chat-parser-cli",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "CLI tool to parse WhatsApp chat exports into JSON",
   "main": "src/parser.js",
   "bin": {
