@@ -1,22 +1,24 @@
 {
-  "name": "jsonfiy_whatsapp_exports",
+  "name": "whatsapp-chat-parser-cli",
   "version": "1.0.0",
-  "description": "This NPM package provides a streamlined way to convert WhatsApp chat exports into structured JSON format, making it easy to parse conversation data for various applications. It is particularly useful for developers working with language models (LLMs) in creating realistic conversational agents or mimicking user personas.",
-  "main": "index.js",
+  "description": "CLI tool to parse WhatsApp chat exports into JSON",
+  "main": "src/parser.js",
+  "bin": {
+    "whatsapp-parser": "./bin/whatsapp-parser.js"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/siddheshsonawane07/jsonify_whatsapp_exports.git"
-  },
+  "keywords": [
+    "whatsapp",
+    "chat",
+    "parser",
+    "cli",
+    "json"
+  ],
   "author": "Siddhesh Sonawane",
   "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/siddheshsonawane07/jsonify_whatsapp_exports/issues"
-  },
-  "publishConfig": {
-  "@siddheshsonawane07:registry": "https://npm.pkg.github.com"
-  },
-  "homepage": "https://github.com/siddheshsonawane07/jsonify_whatsapp_exports#readme"
+  "dependencies": {
+    "commander": "^9.5.0"
+  }
 }
