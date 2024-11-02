@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/siddheshsonawane07/jsonify_whatsapp_exports/issues"
   },
+  "publishConfig": {
+  "@siddheshsonawane07:registry": "https://npm.pkg.github.com"
+  },
   "homepage": "https://github.com/siddheshsonawane07/jsonify_whatsapp_exports#readme"
 }
