@@ -60,15 +60,11 @@
 
 <h2>Examples</h2>
 <ol>
-    <li>Basic parsing:</li>
-    <pre><code>whatsapp-parser WhatsApp.txt</code></pre>
-
-    <li>Save to specific file with pretty printing:</li>
-    <pre><code>whatsapp-parser WhatsApp.txt -o parsed-chat.json -f</code></pre>
-
-    <li>Display help:</li>
-    <pre><code>whatsapp-parser --help</code></pre>
+    <li>Basic parsing: <code>whatsapp-parser WhatsApp.txt</code></li>
+    <li>Save to a specific file with pretty printing: <code>whatsapp-parser WhatsApp.txt -o parsed-chat.json -f</code></li>
+    <li>Display help: <code>whatsapp-parser --help</code></li>
 </ol>
+
 
 <h2>Contributing</h2>
 <ol>
