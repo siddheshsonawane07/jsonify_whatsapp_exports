@@ -1,5 +1,5 @@
 {
-  "name": "@siddheshsonawane07/jsonfiy_whatsapp_exports",
+  "name": "jsonfiy_whatsapp_exports",
   "version": "1.0.0",
   "description": "This NPM package provides a streamlined way to convert WhatsApp chat exports into structured JSON format, making it easy to parse conversation data for various applications. It is particularly useful for developers working with language models (LLMs) in creating realistic conversational agents or mimicking user personas.",
   "main": "index.js",
